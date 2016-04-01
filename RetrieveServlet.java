@@ -31,7 +31,7 @@ public class RetrieveServlet extends HttpServlet{
 	protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 		
 		PrintWriter out = res.getWriter();
-		String userid = (String) req.getSession().getAttribute("user name");
+		String userid = (String) req.getSession().getAttribute("username");
 		
 		if(userid == null){
 			req.getRequestDispatcher("/").forward(req, res);
