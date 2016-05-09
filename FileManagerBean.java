@@ -84,7 +84,7 @@ public class FileManagerBean {
 	}
 
 	private void addUserFile(String userId, String filename) {
-		if(userId == null || userId.isEmpty() || filename == null || file-name.isEmpty()){
+		if(userId == null || userId.isEmpty() || filename == null || filename.isEmpty()){
 			return;
 		}
 
