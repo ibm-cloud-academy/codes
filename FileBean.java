@@ -14,7 +14,7 @@ import javax.persistence.NamedQuery;
  * Bean implementation class for Enterprise Bean: File
  */
 @Entity (name="File")
-@Table (name = "FILE  ")
+@Table (name = "ADMINISTRATOR.FILE  ")
 @NamedQueries({ 
 	@NamedQuery(name = "findFileByUserid", query = "select object(o) from File o where  o.userId = ?1"),
 		
